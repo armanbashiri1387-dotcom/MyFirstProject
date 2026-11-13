@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اموزش فرم ثبت نام</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Hello GitHub!</h1>
+    <p>My first project.</p>
+
+    <form action ="http://">
+
+<b>نام:</b><input type="text" name="username" size="35" naxlength="35" value=""><br>
+<b>نام خانوادگی:</b><input type="text" name="deptt" size="35" naxlength="35" value=""><br>
+
+<b>بیوگرافی:</b><br><textarea name="corments" cols="30" rows="4"></textarea><br>
+<b>وضعیعت تاهل:</b><br>
+<b>مجرد</b><input type="radio" name="exe" value="1">
+<b>متاهل</b><input type="radio" name="exe" value="2">
+<b>علاقه به گفتن ندارم</b><input type="radio" name="exe" value="3">
+
+<br>
+<b>اطلاعات سایت شخصی:</b><br>
+<input type="checkbox" name="books">کتاب ها
+<input type="checkbox" name="web">صفحه وب 
+<input type="checkbox" name="phone">برنامه های کمکی
+<input type="checkbox" name="magazines">اموزش ها 
+<br><br>
+
+
+<select name="program">
+<option value="seleted disabled">انتخاب برنامه:</option>   
+<option value="1">PHP</option>
+<option value="2">HTML</option>
+<option value="3">MYSQL</option>
+<option value="4">ACCESS</option>
+<option value="5">WORDPRESE</option>
+</select>
+<br>
+
+<button type="reset">پاک کردن</button>
+<button type="submit">ارسال کردن</button>
+</form>
+
+<style>
+    /* تنظیمات کلی صفحه */
+body {
+    background-color: #e9f6f8;
+    font-family: Tahoma;
+    direction: rtl;
+    padding: 30px;
+}
+
+/* ظاهر فرم */
+form {
+    background-color: rgb(104, 139, 255);
+    width: 450px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid #c5e1a5;
+}
+
+/* عنوان فرم */
+h2 {
+    color: #5210cc;
+    text-align: center;
+}
+
+/* کادرهای ورودی */
+input[type="text"],
+textarea,
+select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #a5d6a7;
+    border-radius: 6px;
+}
+
+/* وقتی داخل کادر کلیک می‌کنیم */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border: 2px solid #66bb6a;
+}
+
+/* دکمه‌ها */
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* تغییر رنگ دکمه هنگام رفتن موس روی آن */
+button:hover {
+    background-color: #fbc02d;
+    color: black;
+}
+
+/* رنگ عنوان‌ها */
+label {
+    color: #33691e;
+}
+</style>
+
+
+</body>
+</html>
